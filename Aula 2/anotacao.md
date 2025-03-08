@@ -295,3 +295,19 @@ else:
 - Continue pedindo a opção até o usuário escolher sair.
 
 
+# Exercícios de Estrutura Condicional e Repetição (Nível Difícil)
+
+## 1. Desafio do Fatorial Inverso
+Escreva um programa que calcule o fatorial de um número inserido pelo usuário. O programa deve perguntar se o usuário quer calcular o fatorial de outro número. Se a resposta for sim, o programa deve calcular o fatorial do novo número. Se a resposta for não, o programa deve encerrar.
+
+## 2. Jogo de Adivinhação
+Crie um jogo de adivinhação onde o computador escolhe um número aleatório entre 1 e 100. O usuário deve tentar adivinhar o número, e o programa deve informar se o chute foi maior ou menor que o número sorteado. O jogo deve repetir até o usuário acertar.
+
+## 3. Calculadora de Média com Repetição
+Solicite ao usuário várias notas de alunos. O programa deve calcular a média de cada aluno e determinar se ele foi aprovado (média >= 7), reprovado (média < 4) ou de recuperação (média entre 4 e 7). O programa deve perguntar se o usuário deseja continuar inserindo notas ou se quer finalizar.
+
+## 4. Contagem Regressiva para o Ano Novo
+Implemente uma contagem regressiva para o Ano Novo. O programa deve exibir a quantidade de segundos restantes e continuar até atingir zero. Ao atingir zero, o programa exibe "Feliz Ano Novo!" e pergunta ao usuário se deseja reiniciar a contagem.
+
+## 5. Sequência de Fibonacci até um Número Limite
+Peça ao usuário um número limite. O programa deve gerar a sequência de Fibonacci até atingir ou ultrapassar esse número e, a cada número gerado, deve perguntar se o usuário deseja continuar ou encerrar o programa.
