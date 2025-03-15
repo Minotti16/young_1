@@ -311,3 +311,9 @@ Implemente uma contagem regressiva para o Ano Novo. O programa deve exibir a qua
 
 ## 5. Sequência de Fibonacci até um Número Limite
 Peça ao usuário um número limite. O programa deve gerar a sequência de Fibonacci até atingir ou ultrapassar esse número e, a cada número gerado, deve perguntar se o usuário deseja continuar ou encerrar o programa.
+
+Verificação de Palíndromo
+Peça ao usuário para inserir uma palavra. O programa deve verificar se a palavra é um palíndromo (se pode ser lida da mesma forma de trás para frente). O programa deve repetir até o usuário digitar "sair".
+
+Contagem de Caracteres
+Solicite ao usuário para inserir uma frase. O programa deve contar quantas vezes um determinado caractere (informado pelo usuário) aparece na frase. Após a contagem, o programa deve perguntar se o usuário deseja contar outro caractere ou encerrar o programa.
