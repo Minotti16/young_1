@@ -1,15 +1,18 @@
 class Carro():
     def __init__(self):
         self.marca = input('Digite uma marca: ')
-        self.velocidade = input("Digite um número: ")
+        self.velocidade = int(input("Digite um número: "))
 
     def acelerar(self):
         return self.velocidade +valor
     def freiar(self):
         return self.velocidade -valor
-    
-valor = Carro()
-valor = 30
-print(valor.acelerar())
+
+valor = 30    
+v = Carro()
+v.acelerar()
+v.freiar()
+print(f'{v.marca} acelerou. velocidade atual é:{v.acelerar()}')
+print(f'{v.marca} freirou. velocidade atual é:{v.freiar()}')
 
 
