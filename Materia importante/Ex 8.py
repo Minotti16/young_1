@@ -3,16 +3,18 @@ class Calculadora():
         self.a = int(input('Digite um número: '))
         self.b = int(input('Digite um outro número: '))
 
-    def calular(self):
-        self.somar = print(self.a + self.b)
-        self.subtrair = print(self.a - self.b)
-        self.multiplicar = print(self.a * self.b)
-        self.dividir = print(self.a / self.b)
+    def adiçao(self):
+        return self.a + self.b
+    def subtração(self):
+       return self.a - self.b
+    def multiplicação(self):
+        return self.a * self.b
+    def divisão(self):
+        return self.a / self.b
 
-m = Calculadora()    
+m = Calculadora() 
 
-def menu():
-    while True:
+while True:
         print('**********************')
         print('   Calculadora  ')
         print('**********************')
@@ -24,20 +26,19 @@ def menu():
         print('**********************')
         opcao = int(input('Opção desejada: '))
         if opcao == 1:
-            print(f"{m.somar}")
+            print(f"{m.adiçao()}")
             pause = input(' ')
         elif opcao == 2:
-            print(f"{m.subtrair}")
+            print(f"{m.subtração()}")
             pause = input(' ')
         elif opcao == 3:
-            print(f"{m.multiplicar}")
+            print(f"{m.multiplicação()}")
             pause = input(' ')
         elif opcao == 4:
-            print(f"{m.dividir}")
+            print(f"{m.divisão()}")
             pause = input(' ')
         elif opcao == 5:
             break
         else:
-            menu()
-
-menu()
+            continue
+        

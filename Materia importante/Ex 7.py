@@ -4,9 +4,8 @@ class CachorroComComportamento():
         self.raça = input('Digite uma raça: ')
 
     def latir(self):
-        print('Au au!')
+        return 'Au au!'
 
 c = CachorroComComportamento()
-c.latir()
-print(f'{c.nome}')
-print(f'{c.raça}' )
+print(f'O {c.nome} da raça {c.raça} disse {c.latir()}')
+
