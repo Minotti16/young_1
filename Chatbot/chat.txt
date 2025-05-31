@@ -1,0 +1,6 @@
+Cliente: Vou bem
+Cliente: Eu também, você gosta de filme?
+Cliente: Eu gosto muito!
+Cliente: Qual?
+Cliente: Gosto demais!
+Cliente: Legal!
