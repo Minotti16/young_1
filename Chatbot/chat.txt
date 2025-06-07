@@ -1,6 +1,6 @@
 Cliente: Vou bem
-Cliente: Eu também, você gosta de filme?
+Chatbot: Eu também, você gosta de filme?
 Cliente: Eu gosto muito!
-Cliente: Qual?
+Chatbot: Qual?
 Cliente: Gosto demais!
-Cliente: Legal!
+Chatbot: Legal!
