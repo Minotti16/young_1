@@ -1,0 +1,3 @@
+
+Cliente: oi
+Chatbot: & "C:/Users/Aluno Ctrl Play/Documents/GitHub/young_1/venv/Scripts/python.exe" "c:/Users/Aluno Ctrl Play/Documents/GitHub/young_1/Chatbot/InterfaceGrafica.py"

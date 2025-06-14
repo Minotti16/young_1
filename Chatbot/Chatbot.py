@@ -1,4 +1,4 @@
-import main2 as pc
+import main as pc
 
 nome_maquina = 'Maria'
 pc.saudacoes(nome_maquina)
